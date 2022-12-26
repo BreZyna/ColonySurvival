@@ -19,14 +19,15 @@
 	},
 	"sentences": {
 		"astrolabe": {
-			"bigtree": "_MISSING_Mammoth Tree",
-			"heath": "_MISSING_Heath",
-			"marsh": "_MISSING_Marsh",
-			"mountain": "_MISSING_Mountain"
+			"bigtree": "Mamutí strom",
+			"heath": "Vřesoviště",
+			"marsh": "Bažina",
+			"mountain": "Hora"
 		},
 		"bannerclickedpopup": {
 			"deletebanner": "Smazat prapor",
 			"deletecolony": "Smazat kolonii",
+			
 			"deletecolonydescription": "Mazáním posledního založeného praporu ztratíte všechny své kolonisty a kolonie již bude nepoužitelná. Pro potvrzení napište 'delete' do pole níže.",
 			"header": "Možnosti praporu",
 			"noconfirmationdelete": "Pokus o smazání kolonie neúspěšný, nenapsali jste požadované slovo.",
@@ -36,34 +37,34 @@
 			"activecolony": "Aktivní kolonie: {0}",
 			"addbanner": "Přidat prapor",
 			"header": "Položení praporu",
-			"missingcolonykit": "_MISSING_Requires a Colony Starter Kit",
-			"missingoutpostbanner": "_MISSING_Requires an Outpost Banner",
+			"missingcolonykit": "Potřebuje začáteční balíček",
+			"missingoutpostbanner": "Potřebuje outpost banner",
 			"movebanner": "Přesunout prapor",
 			"mustbeleader": "Musíte být vůdcem kolonie, abyste mohli přesunout prapor.",
-			"opencolonytab": "_MISSING_Manage {0}",
+			"opencolonytab": "Spravovat {0}",
 			"startcolony": "Vytvořte novou kolonii zde.",
-			"startoutpost": "_MISSING_Start a new outpost",
-			"startoutpostremote": "_MISSING_Start a new outpost"
+			"startoutpost": "Založit nový outpost",
+			"startoutpostremote": "Založit nový outpost"
 		},
 		"category": {
-			"consumables": "_MISSING_Consumables",
-			"decorative": "_MISSING_Building Blocks",
-			"defense": "_MISSING_Defense",
-			"essential": "_MISSING_Essentials",
-			"food": "_MISSING_Food",
-			"ingredient": "_MISSING_Ingredients & Luxury",
-			"job": "_MISSING_Jobblocks",
-			"misc": "_MISSING_Misc",
-			"texres": "_MISSING_Textiles & Research"
+			"consumables": "Consumables",
+			"decorative": "Blocky",
+			"defense": "Defendění",
+			"essential": "Základní",
+			"food": "Chálky",
+			"ingredient": "Ingredience a Luxus",
+			"job": "Blocky práce",
+			"misc": "Různé",
+			"texres": "Textílie a výzkum"
 		},
 		"chat": {
-			"colonydied": "Všichni kolonisté v {0} byli zabiti.",
-			"playerdied": "Hráč {0} zemřel."
+			"colonydied": "Všichni kolonisté v {0} byli chcípnuti.",
+			"playerdied": "Hráč {0} chcípnul."
 		},
 		"colonymanagement": {
 			"colonysettings": {
-				"difficulty": "_MISSING_Difficulty",
-				"difficultylocked": "_MISSING_Locked Difficulty",
+				"difficulty": "Obtížnost",
+				"difficultylocked": "Uzamčená obtížnost",
 				"header": "Nastavené kolonie"
 			},
 			"diplomacy": {
@@ -92,11 +93,11 @@
 			"manageowners": "Spravovat vlastníky",
 			"nameedit": "Upravit jméno kolonie:",
 			"outpost": {
-				"create": "_MISSING_Create Outpost",
-				"createdescription": "_MISSING_Starting an outpost consumes an Outpost Banner from your inventory (or stockpile).",
-				"parentcolony": "_MISSING_Parent Colony:",
-				"popupheader": "_MISSING_Outpost Creation",
-				"selectparent": "_MISSING_Select Main Colony"
+				"create": "Založit outpost",
+				"createdescription": "Zakládání Outpostu konzumuje outpost banner z tvého inventáře",
+				"parentcolony": "Rodičovská kolonie:",
+				"popupheader": "Založení outpostu",
+				"selectparent": "Vybrat hlavní kolonii"
 			},
 			"ownership": {
 				"action": "Akce",
@@ -111,7 +112,7 @@
 				"role": "Role",
 				"settoleader": "Povýšit na vůdce"
 			},
-			"recruit": "_MISSING_Recruit",
+			"recruit": "Rekrutovat",
 			"recruitauto": "Automatická rekrutace při založení nové práce",
 			"recruitfailedbeds": "<color=red>Nelze najmout dalšího kolonistu - nedostatek volných postelí.</color>",
 			"recruitfailedcap": "<color=red>Nelze najmout dalšího kolonistu - dosažena maximální kapacita.</color>",
@@ -173,9 +174,9 @@
 			}
 		},
 		"commands": {
-			"disableachievements": "_MISSING_Achievements have been disabled for this world due to interacting with cheat options",
+			"disableachievements": "Úspěchy byly zakázány, protože se na tomto světě používaly cheaty",
 			"disableachievementsfirst": "_MISSING_To do that, you must first disable achievements by using the '/disableachievements' command",
-			"nopermission": "_MISSING_You do not have the permission '{0}' to do that."
+			"nopermission": "Nemáš právo k '{0}'."
 		},
 		"connectingscreen": {
 			"general_1": "Proces {0}/{1} - Vyžadováno heslo",
@@ -248,16 +249,16 @@
 			"settings": "Nastavení"
 		},
 		"failsafe": {
-			"current": "_MISSING_Current Sacred Points storage: {0} out of {1}",
-			"damage": "_MISSING_Triggering the Sacred Failsafe will cause {0} damage",
-			"futurewave": "_MISSING_The Failsafe will reduce the total HP of incoming monsters by {0:P0} for the next night",
-			"header": "_MISSING_Failsafe",
-			"nextavailable": "_MISSING_The Failsafe will be available again after the next night",
-			"statusactive": "_MISSING_Status: Sacred Failsafe has been activated",
-			"statusavailable": "_MISSING_Status: Sacred Failsafe is available",
-			"trigger": "_MISSING_Trigger",
-			"wave": "_MISSING_The current threat level is {0} and will spawn monsters with a total HP of {1}",
-			"wavereduced": "_MISSING_The total HP of incoming monsters will be reduced by {0:P0} the next night"
+			"current": "Aktuální úložiště posvátných bodů: {0} z {1}",
+			"damage": "Spuštění posvátné pojistky způsobí {0} damage",
+			"futurewave": "Posvátná pojistka sníží celkový počet HP příchozích monster o {0:P0} na příští noc.",
+			"header": "Posvátná pojistka",
+			"nextavailable": "Posvátná pojistka bude zase dostupná příští noc",
+			"statusactive": "Posvátná pojistka byůa aktivována",
+			"statusavailable": "Posvátná pojistka je dostupná",
+			"trigger": "Zapnout",
+			"wave": "Aktuální úroveň ohrožení je {0} a vyvolá příšery s celkovou hodnotou HP {1}.",
+			"wavereduced": "Celkový počet HP příchozích monster se následující noc sníží o {0:P0}."
 		},
 		"firstpersonstats": {
 			"ammocount": "Střelivo:",
@@ -265,9 +266,9 @@
 			"colonistcount": "Kolonisté:",
 			"colonypoints": "Body:",
 			"laborercount": "Nezaměstnaní:",
-			"mealstorage": "Celkem jídel:",
-			"threatlevel": "_MISSING_Threat Level:",
-			"time_day": "_MISSING_Day"
+			"mealstorage": "Celkem chálek:",
+			"threatlevel": "Ůroveň nebezpečí:",
+			"time_day": "Den"
 		},
 		"general": {
 			"apply": "Použít",
@@ -314,8 +315,8 @@
 		"mainmenu": {
 			"back": "Zpátky",
 			"contentmanager": "Módy",
-			"continue": "_MISSING_Continue",
-			"coop": "Hostovat kooperační mód",
+			"continue": "Pokračovat",
+			"coop": "Kooperační mód",
 			"info": "Info",
 			"multiplayer": "Hra pro více hráčů",
 			"quit": "Odejít",
@@ -346,75 +347,75 @@
 			"version": "Verze"
 		},
 		"notifications": {
-			"delete": "_MISSING_Delete notification",
-			"header": "_MISSING_Notifications",
-			"missingplayerammo": "_MISSING_<color=red>Using {0} requires some {1} to be in the inventory!</color>",
+			"delete": "Vymazat upozornění",
+			"header": "Upozornění",
+			"missingplayerammo": "<color=red>Použití {0} potřebuje {1} v inventáŕi!</color>",
 			"npc_died": {
-				"banner": "_MISSING_A monster at the banner",
-				"command": "_MISSING_Command usage",
+				"banner": "Monstrum u banneru",
+				"command": "Použití příkazu",
 				"excess": "_MISSING_And {0} more died since, anonymously.",
-				"individual": "_MISSING_{0}: A colonist with job {1} died from: {2}",
-				"main": "_MISSING_{0} colonists died in outpost {1}!",
-				"misc": "_MISSING_Unkown reasons",
-				"monster": "_MISSING_A monster",
-				"npc": "_MISSING_A colonist",
-				"player": "_MISSING_A player",
-				"starving": "_MISSING_Starvation",
-				"trap": "_MISSING_A Trap"
+				"individual": "{0}: Kolonista s prací {1} umřel z: {2}",
+				"main": "{0} kolonista chcípnul v outpostu {1}!",
+				"misc": "Neznámý důvod",
+				"monster": "Monstrum",
+				"npc": "Kolonista",
+				"player": "Hráč",
+				"starving": "Vyhladovění",
+				"trap": "Past"
 			},
 			"science": {
-				"entry": "_MISSING_{0}: Completed {1}",
-				"main": "_MISSING_Science completed!"
+				"entry": "{0}: Dokonćen {1}",
+				"main": "Výzkum dokončen!"
 			},
 			"siegemode": {
-				"disabled": "_MISSING_{0}: Exited siege mode",
-				"enabled": "_MISSING_{0}: Entered siege mode",
-				"main": "_MISSING_Siege mode triggered in outpost {0}!"
+				"disabled": "{0}: Ukončeno obléhání",
+				"enabled": "{0}: Vstoupil do režimu obléhání",
+				"main": "Režim obléhání spuštěný v outpostu {0}!"
 			}
 		},
 		"npcs": {
 			"pipliz": {
-				"alchemist": "_MISSING_Alchemist",
+				"alchemist": "Alchemista",
 				"alkanetfarmer": "Farmář alkany",
 				"barleyfarmer": "Farmář ječmene",
 				"beekeeper": "Včelař",
 				"berryfarmer": "Farmář bobulí",
-				"blastfurnace": "_MISSING_Blast Furnace Operator",
+				"blastfurnace": "Obsluha vysoké pece",
 				"bloomeryjob": "Železář",
 				"builder": "Stavitel",
 				"cabbagefarmer": "Farmář zelí",
-				"chestmaker": "_MISSING_Chestmaker",
+				"chestmaker": "Truhlář",
 				"chickenfarmer": "Farmář slepic",
-				"composter": "_MISSING_Composter",
+				"composter": "Komposter",
 				"constructor": "Stavitel",
 				"cook": "Kuchař",
-				"coppersmith": "_MISSING_Copper Smith",
-				"cottonengine": "_MISSING_Cotton Engine Operator",
+				"coppersmith": "Měděný kovář",
+				"cottonengine": "Obsluha strojů na bavlnu",
 				"cottonfarmer": "Farmář vlny",
 				"digger": "Kopáč",
 				"diggerspecial": "Speciální kopáč",
 				"dyer": "Barvíř",
-				"engineer": "_MISSING_Engineer",
-				"firepit": "_MISSING_Primitive Cook",
+				"engineer": "Inženýr",
+				"firepit": "Primitivní kuchař",
 				"fisherman": "Rybář",
 				"flaxfarmer": "Farmář lenu",
 				"fletcher": "_MISSING_Fletcher",
 				"forester": "Dřevorubec",
-				"glassblower": "_MISSING_Glassblower",
+				"glassblower": "Sklář",
 				"grinder": "Brusič",
 				"guardbowday": "Denní lučištník",
 				"guardbownight": "Noční lučištník",
 				"guardcrossbowday": "Denní kušištník",
 				"guardcrossbownight": "Noční kušištník",
-				"guardgrenadeday": "_MISSING_Day Grenade Launcher Guard",
-				"guardgrenadenight": "_MISSING_Night Grenade Launcher Guard",
-				"guardhandcannonday": "_MISSING_Day Handcannon Guard",
-				"guardhandcannonnight": "_MISSING_Night Handcannon Guard",
-				"guardmusketday": "_MISSING_Day Musket Guard",
-				"guardmusketnight": "_MISSING_Night Musket Guard",
+				"guardgrenadeday": "Denní stráž s granátometem",
+				"guardgrenadenight": "Noční stráž s granátometem",
+				"guardhandcannonday": "Denní stráž s ručním kanónem",
+				"guardhandcannonnight": "Noční stráž s ručním kanónem",
+				"guardmusketday": "Denní stráž s mušketou",
+				"guardmusketnight": "Noční stráž s mušketou",
 				"guardpoison": "_MISSING_Poison Guard",
-				"guardslingerday": "Denní práč",
-				"guardslingernight": "Noční práč",
+				"guardslingerday": "Denní prákovać",
+				"guardslingernight": "Noční prákovač",
 				"gunsmith": "_MISSING_Gunsmith",
 				"hempfarmer": "_MISSING_Hemp Farmer",
 				"hollyhockfarmer": "Farmář topolovky",
